@@ -2,12 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8c67ed7-4bbd-4489-bd88-e415bdce5062" name="Changes" comment="">
+      <changelist_data name="Milena Ramírez López" email="milena.ramirez.lopez@gmail.com" />
+      <change afterPath="$PROJECT_DIR$/../04-gif-expert-app-test/src/tests/components/GifGridItem.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/components/GifGridItem.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/components/__snapshots__/GifGridItem.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../04-gif-expert-app-test/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-gif-expert-app-test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/docs/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/docs/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/docs/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/docs/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/docs/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/docs/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/docs/static/css/main.d8595431.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/docs/static/css/main.d8595431.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/docs/static/js/main.4c99afbf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/docs/static/js/main.4c99afbf.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/docs/static/js/main.4c99afbf.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../04-gif-expert-app-test/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../04-gif-expert-app-test/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../04-gif-expert-app-test/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/src/GifExpertApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/../04-gif-expert-app-test/src/GifExpertApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/src/components/AddCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/../04-gif-expert-app-test/src/components/AddCategory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/src/components/GifGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/../04-gif-expert-app-test/src/components/GifGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/src/components/GifGridItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/../04-gif-expert-app-test/src/components/GifGridItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/src/helpers/getGifs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../04-gif-expert-app-test/src/helpers/getGifs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/src/hooks/useFetchGifs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../04-gif-expert-app-test/src/hooks/useFetchGifs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../04-gif-expert-app-test/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../04-gif-expert-app-test/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-gif-expert-app-test/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/../04-gif-expert-app-test/src/setupTests.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -25,9 +65,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../04-gif-expert-app-test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/tests/components" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -38,10 +83,25 @@
       <option name="presentableId" value="Default" />
       <updated>1649101859801</updated>
       <workItem from="1649101861020" duration="6404000" />
+      <workItem from="1649125417751" duration="1275000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
