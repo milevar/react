@@ -3,22 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8c67ed7-4bbd-4489-bd88-e415bdce5062" name="Changes" comment="Create duplicate GiftExpertApp to make test">
       <changelist_data name="Milena Ramírez López" email="milena.ramirez.lopez@gmail.com" />
-      <change afterPath="$PROJECT_DIR$/src/tests/GifExpertApp.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/__snapshots__/GifExpertApp.test.js.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/components/AddCategory.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/components/GifGrid.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/components/__snapshots__/AddCategory.test.js.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/components/__snapshots__/GifGrid.test.js.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/helpers/getGifs.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/hooks/useFetchGifts.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GifExpertApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GifExpertApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddCategory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GifGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GifGrid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GifGridItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GifGridItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/components/GifGridItem.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/GifGridItem.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/components/__snapshots__/GifGridItem.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/__snapshots__/GifGridItem.test.js.snap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../05-hook-app" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -67,7 +52,9 @@
       <updated>1649101859801</updated>
       <workItem from="1649101861020" duration="6404000" />
       <workItem from="1649125417751" duration="5040000" />
-      <workItem from="1649165192143" duration="12518000" />
+      <workItem from="1649165192143" duration="13327000" />
+      <workItem from="1649271394745" duration="1205000" />
+      <workItem from="1649273564153" duration="83000" />
     </task>
     <servers />
   </component>
