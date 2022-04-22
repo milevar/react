@@ -2,30 +2,29 @@ import React, {useEffect, useState} from 'react';
 
 export const Message = () => {
 
-    const [coords, setCords] = useState({x:0, y:0});
-    const {x, y} = coords;
+    const [cords, setCords] = useState({x: 0, y: 0});
+    const {x, y} = cords;
 
-    useEffect( () => {
+    useEffect(() => {
 
-        const mousemove = (e) => {
-            const coords = { x: e.x, y: e.y};
-            setCords(coords);
+        const mouseMove = (e) => {
+            const cords = {x: e.x, y: e.y};
+            setCords(cords);
         }
 
-        window.addEventListener('mousemove', mousemove);
+        window.addEventListener('mousemove', mouseMove);
+
         return () => {
-           window.removeEventListener('mousemove', mousemove)
-        }
+            window.removeEventListener('mousemove', mouseMove);
+        };
     }, []);
 
     return (
-        <div>
-            <h3>Eres genial !!</h3>
+        <>
+            <h3>Eres genial!</h3>
             <p>
-                x: {x} y:{y}
+                x: {x} y: {y}
             </p>
-        </div>
-    );
-};
-
-export default Message;
+        </>
+    )
+}

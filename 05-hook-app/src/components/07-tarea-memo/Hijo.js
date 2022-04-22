@@ -1,15 +1,14 @@
-import React, {memo} from 'react'
+import React from 'react'
 
-export const Hijo = memo(({ numero, incrementar }) => {
+export const Hijo = React.memo(({numero, incrementar}) => {
 
     console.log('  Me volví a generar :(  ');
 
     return (
         <button
-            className="btn btn-primary m-right"
-            onClick={ () => incrementar( numero ) }
-        >
-            { numero }
+            className="btn btn-primary mr-3"
+            onClick={() => incrementar(numero)}>
+            {numero}
         </button>
     )
-})
+});

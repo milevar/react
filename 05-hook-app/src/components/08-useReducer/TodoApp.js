@@ -1,66 +1,58 @@
 import React, {useEffect, useReducer} from 'react';
 import './styles.css';
-import {todoReducer} from './todoReducer';
-import TodoList from "./TodoList";
+import todoReducer from './todoReducer';
+import TodoList from './TodoList';
+import TodoAdd from './TodoAdd';
 
 const init = () => {
-
     return JSON.parse(localStorage.getItem('todos')) || [];
-
 };
 
 const TodoApp = () => {
-
     const [todos, dispatch] = useReducer(todoReducer, [], init);
 
     useEffect(() => {
-        localStorage.setItem('todos', JSON.stringify(todos))
+        localStorage.setItem('todos', JSON.stringify(todos));
     }, [todos]);
 
-
     const handleDelete = (todoId) => {
-        console.log(todoId);
-
-        const actionDelete = {
+        const action = {
             type: 'delete',
             payload: todoId
         }
-        dispatch(actionDelete);
+
+        dispatch(action);
     }
 
     const handleToggle = (todoId) => {
+
         dispatch({
             type: 'toggle',
             payload: todoId
         });
-    }
+    };
 
     const handleAddTodo = (newTodo) => {
         dispatch({
             type: 'add',
             payload: newTodo
         });
-    }
+    };
 
-    console.log(todos);
     return (
         <div>
-            <h1>TodoApp <small>({todos.length})</small></h1>
+            <h1>TodoApp ({todos.length})</h1>
             <hr/>
 
             <div className="row">
                 <div className="col-7">
-                    Todo
-                    <TodoList
-                        todos={todos}
-                        handleDelete={handleDelete}
-                        handleToggle={handleToggle}
-                    />
+                    <TodoList todos={todos}
+                              handleDelete={handleDelete}
+                              handleToggle={handleToggle}/>
                 </div>
                 <div className="col-5">
-                    <TodoApp handleAddTodo={handleAddTodo}/>
+                    <TodoAdd handleAddTodo={handleAddTodo}/>
                 </div>
-
             </div>
         </div>
     );

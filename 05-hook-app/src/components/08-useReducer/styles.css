@@ -1,5 +1,5 @@
 body {
-    padding: 70px;
+    padding: 50px;
 }
 
 p {
@@ -8,8 +8,8 @@ p {
 }
 
 .list-group-item {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;
 }
 

@@ -11,7 +11,7 @@ const LoginScreen = () => {
             <button className="btn btn-primary"
                     onClick={() => setUser({
                         id: 123,
-                        name: 'Milena'
+                        name: 'Javier'
                     })}>
                 Login
             </button>

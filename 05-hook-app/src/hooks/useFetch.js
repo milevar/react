@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import {useEffect, useRef, useState} from "react";
 
 export const useFetch = (url) => {
 
@@ -9,10 +9,11 @@ export const useFetch = (url) => {
         return () => {
             isMounted.current = false;
         }
-    }, [])
+    }, []);
 
     useEffect(() => {
-        setState({data: null, error: null, loading: true})
+
+        setState({data: null, loading: true, error: null});
 
         fetch(url)
             .then(resp => resp.json())
@@ -21,13 +22,18 @@ export const useFetch = (url) => {
                     setState({
                         loading: false,
                         error: null,
-                        data
-                    })
-                } else {
-                    console.log("SetState no se mostro")
+                        data: data
+                    });
                 }
             })
-    }, [url]);
+            .catch(() => {
+                setState({
+                    data: null,
+                    loading: false,
+                    error: 'No se pudo cargar la info'
+                })
+            });
+    }, [url])
 
     return state;
-};
+}

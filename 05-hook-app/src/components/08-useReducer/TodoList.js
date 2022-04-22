@@ -1,5 +1,5 @@
 import React from 'react';
-import TodoListItem from "./TodoListItem";
+import TodoListItem from './TodoListItem';
 
 const TodoList = ({todos, handleDelete, handleToggle}) => {
     return (
@@ -10,8 +10,8 @@ const TodoList = ({todos, handleDelete, handleToggle}) => {
                         key={todo.id}
                         todo={todo}
                         index={i}
-                        handleDelete={handleDelete}
-                        handleToggle={handleToggle}/>
+                        handleDelete={() => handleDelete(todo.id)}
+                        handleToggle={() => handleToggle(todo.id)}/>
                 ))
             }
         </ul>
