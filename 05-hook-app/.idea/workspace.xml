@@ -1,6 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9fbf8ddf-e91f-469d-b9ad-43c726a2352d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tests/components/08-useReducer/TodoApp.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/components/08-useReducer/TodoList.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/components/08-useReducer/TodoListItem.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/components/08-useReducer/todoApp.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/components/09-useContext/AppRouter.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/components/09-useContext/HomeScreen.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/components/09-useContext/LoginScreen.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/09-useContext/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/09-useContext/HomeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/components/04-useRef/RealExampleRef.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/04-useRef/RealExampleRef.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/components/08-useReducer/todoReducer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/08-useReducer/todoReducer.test.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28AVceN8ROPfso66GLoPFvi0EL3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="/media/milena/TheTeam.Ninja/Projects" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Diplomado_mod_4/omicron/siiu-react-omicron" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fbf8ddf-e91f-469d-b9ad-43c726a2352d" name="Changes" comment="" />
+      <created>1650659460557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650659460557</updated>
+      <workItem from="1650659462462" duration="1593000" />
+      <workItem from="1650674504287" duration="4006000" />
+      <workItem from="1650680499032" duration="434000" />
+      <workItem from="1650998573826" duration="8734000" />
+      <workItem from="1651020853895" duration="17000" />
+      <workItem from="1651087740417" duration="4181000" />
+      <workItem from="1651153895566" duration="3717000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

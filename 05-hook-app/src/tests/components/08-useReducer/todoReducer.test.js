@@ -9,16 +9,44 @@ describe('Pruebas en todoReducer', () => {
     });
 
     test('debe de agregar un TODO', () => {
-        const type = 'add';
-        const payload = {
+        const newTodo = {
             id: 3,
-            desc: ' Aprender Python',
+            desc: 'Aprender Python',
             done: false
         };
-        const action = {type, payload};
+        const action = {
+            type: 'add',
+            payload: newTodo
+        };
 
         const state = todoReducer(demoTodos, action);
-        expect(state.length).toBe(demoTodos.length + 1);
-        expect(state).toEqual([...demoTodos, payload]);
+        expect(state.length).toBe(3);
+        expect(state).toEqual([...demoTodos, newTodo]);
+
+    });
+
+    test('debe borrar el TODO', () => {
+        const idTodo = 1;
+        const action = {
+            type: 'delete',
+            payload: idTodo
+        };
+
+        const state = todoReducer(demoTodos, action);
+        expect(state.length).toBe(1);
+        expect(state).toEqual([demoTodos[1]]);
+    });
+
+    test('debe hacer el TOGGLE del TODO', () => {
+        const idTodo = 1;
+        const action = {
+            type: 'toggle',
+            payload: idTodo
+        };
+
+        const state = todoReducer(demoTodos, action);
+        expect(state[0].done).toBe(true);
+        expect(state[1]).toEqual(demoTodos[1]);
     });
 });
+
