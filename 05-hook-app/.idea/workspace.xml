@@ -32,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Diplomado_mod_4/omicron/siiu-react-omicron" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../07-heroes-app" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -55,7 +55,7 @@
       <workItem from="1651020853895" duration="17000" />
       <workItem from="1651087740417" duration="4181000" />
       <workItem from="1651153895566" duration="4652000" />
-      <workItem from="1651171044858" duration="603000" />
+      <workItem from="1651171044858" duration="1300000" />
     </task>
     <servers />
   </component>
